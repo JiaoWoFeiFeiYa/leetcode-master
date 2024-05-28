@@ -3,8 +3,10 @@ package array;
 
 /**
  *  <a href="https://leetcode.cn/problems/binary-search/">main 0704 </a>
+ *  binary search
  */
-public class m0704 {
+
+public class Main0704 {
     /**
      * 暴力
      */
@@ -34,11 +36,11 @@ public class m0704 {
     }
 
     public static void main(String[] args) {
-        m0704 m0704 = new m0704();
+        Main0704 main0704 = new Main0704();
 
         int[] nums = new int[]{5};
         int target = 5;
-        int i = m0704.binarySearch(nums, target);
+        int i = main0704.binarySearch(nums, target);
         System.out.println(i);
     }
 }
